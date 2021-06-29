@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+    &::selection {
+        background: transparentize($color: #42bb83, $amount: 0.5);
+    }
+}
+
+body {
+    background-color: #35495e;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    background-color: #2c3d48;
+}
